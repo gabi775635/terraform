@@ -1,0 +1,11 @@
+# Répertoire d'initialisation Terraform (providers téléchargés, cache)
+.terraform/
+
+# Fichiers d'état Terraform  contiennent des données sensibles
+*.tfstate
+*.tfstate.backup
+
+# Fichiers de variables  peuvent contenir des secrets
+*.tfvars
+
+#  .terraform.lock.hcl doit être commité  NE PAS l'ajouter ici
